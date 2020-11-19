@@ -1,6 +1,6 @@
 ---
 title: Bitcoin
-summary: Bitcoin Price
+summary: Bitcoin Fake Price
 coin: BTC
 ---
 import LineChart from "~/components/Bar.vue";

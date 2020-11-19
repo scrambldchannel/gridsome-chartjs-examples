@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>{{ $page.coin.title }}</h1>
+    <h2>{{ $page.coin.summary }}</h2>
     <p class="intro">{{ $page.coin.excerpt }}</p>
     <line-chart :chartData="dataCoin"></line-chart>
   </Layout>
@@ -61,6 +61,7 @@ export default {
       };
     },
     getPrice() {
+      // dummy function to simulate pulling data via a function using front matter info
       const prices = {
         BTC: [0.125, 2, 13, 1000, 500, 780, 13800, 3300, 7100],
         XMR: [0,0,0,0,0.28,0.34,11.5, 39.05, 314, 45],

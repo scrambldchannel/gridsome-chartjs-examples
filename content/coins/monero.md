@@ -1,6 +1,6 @@
 ---
 title: Monero
-summary: Monero Price
+summary: Monero Fake Price
 coin: XMR
 ---
 
