@@ -1,11 +1,12 @@
 <template>
   <Layout>
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
 
-    <h1>Gridsome Chart.js Examples</h1>
+    <div class="container px-32 py-16">
+      <div class="text-3xl font-bold py-8">Gridsome Chart.js Examples</div>
+    
 
-    <p>Examples of basic usage of Chart.js in Gridsome using vue-chartjs.</p>
-
+    <div class="py-8">Examples of basic usage of Chart.js in Gridsome using vue-chartjs.</div>
+    </div>
   </Layout>
 </template>
 

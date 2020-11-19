@@ -1,49 +1,97 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/chartspage">Charts on Page</g-link>
-        <g-link class="nav__link" to="/charts">Charts in Posts</g-link>
-        <g-link class="nav__link" to="/templatecharts"
-          >Charts in Templates</g-link
+  <div
+    class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen"
+  >
+    <header class="">
+      <nav
+        class="container mx-auto flex flex-wrap justify-between items-center py-8"
+      >
+        <div>
+          <g-link class="text-copy-primary hover:text-gray-600" to="/">{{
+            $static.metadata.siteName
+          }}</g-link>
+        </div>
+        <ul
+          class="tracking-wide block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
         >
+          <li>
+            <g-link
+              to="/chartspage"
+              class="text-copy-primary hover:text-gray-600"
+              >Charts on Page</g-link
+            >
+          </li>
+          <li>
+            <g-link
+              to="/templatecharts"
+              class="text-copy-primary hover:text-gray-600"
+              >Charts in Templates</g-link
+            >
+          </li>
+          <li>
+            <g-link to="/charts" class="text-copy-primary hover:text-gray-600"
+              >Charts in Posts</g-link
+            >
+          </li>
+        </ul>
       </nav>
     </header>
     <main class="flex-grow">
       <slot />
     </main>
-    <footer class="footer">
-      <p class="home-links">
-        <a href="https://gridsome.org/docs/" target="_blank" rel="noopener"
-          >Gridsome docs</a
+    <footer class="">
+      <nav
+        class="container mx-auto flex flex-wrap justify-center items-center py-8"
+      >
+        <ul
+          class="justify-between tracking-wide block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
         >
-        <a
-          href="https://www.chartjs.org/docs/latest/"
-          target="_blank"
-          rel="noopener"
-          >Chart.js docs</a
-        >
-        <a href="https://vue-chartjs.org/guide/" target="_blank" rel="noopener"
-          >vue-chart-js docs</a
-        >
+          <li>
+            <a
+              href="https://gridsome.org/docs/"
+              class="text-copy-primary hover:text-gray-600"
+              target="_blank"
+              rel="noopener"
+              >Gridsome docs
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.chartjs.org/docs/latest/"
+              class="text-copy-primary hover:text-gray-600"
+              target="_blank"
+              rel="noopener"
+              >Chart.js docs</a
+            >
+          </li>
+          <a
+            href="https://vue-chartjs.org/guide/"
+              class="text-copy-primary hover:text-gray-600"
+            target="_blank"
+            rel="noopener"
+            >vue-chart-js docs</a
+          >
+          <li>
+            <a
+              href="https://gridsome.org/plugins/@gridsome/vue-remark"
+              class="text-copy-primary hover:text-gray-600"
+              target="_blank"
+              rel="noopener"
+              >vue-remark docs</a
+            >
+          </li>
 
-        <a
-          href="https://gridsome.org/plugins/@gridsome/vue-remark"
-          target="_blank"
-          rel="noopener"
-          >vue-remark docs</a
-        >
-
-        <a
-          href="https://github.com/scrambldchannel/gridsome-chartjs-examples"
-          target="_blank"
-          rel="noopener"
-          >source on github</a
-        >
-      </p>
+          <li>
+            <a
+              href="https://github.com/scrambldchannel/gridsome-chartjs-examples"
+              class="text-copy-primary hover:text-gray-600"
+              target="_blank"
+              rel="noopener"
+              >source on github</a
+            >
+          </li>
+        </ul>
+      </nav>
     </footer>
   </div>
 </template>
@@ -56,46 +104,3 @@ query {
 }
 </static-query>
 
-<style>
-body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
-}
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  margin-top: 20px;
-  height: 50px;
-  bottom: 0;
-  width: 100%;
-}
-
-.home-links a {
-  margin-right: 1rem;
-}
-
-
-.nav__link {
-  margin-left: 20px;
-}
-</style>

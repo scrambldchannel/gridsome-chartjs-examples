@@ -10,6 +10,8 @@
     "@gridsome/vue-remark": "^0.2.5",
     "chart.js": "^2.9.4",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-tailwindcss": "git://github.com/scrambldchannel/gridsome-plugin-tailwindcss.git#compatability",
     "vue-chartjs": "^3.5.1"
-  }
+  },
+  "devDependencies": {}
 }

@@ -1,18 +1,27 @@
 <template>
   <Layout>
-    <h2>Examples of individual charts on a single page</h2>
-
-    <div class="chartblock">
-      <h2 class="">Line Chart</h2>
-      <line-chart :chartData="dataLine"></line-chart>
-    </div>
-    <div class="chartblock">
-      <h2 class="">Bar Chart</h2>
-      <bar-chart :chartData="dataBar"></bar-chart>
-    </div>
-    <div class="chartblock">
-      <h2 class="">Mixed Chart</h2>
-      <bar-chart :chartData="dataMixed"></bar-chart>
+    <div class="container px-32 py-16">
+      <div class="text-3xl font-bold pt-8">
+        Examples of individual charts on a single page
+      </div>
+      <div>
+        <div class="text-2xl py-16">Line Chart</div>
+        <div class=" max-w-xl">
+          <line-chart :chartData="dataLine"></line-chart>
+        </div>
+      </div>
+      <div>
+        <div class="text-2xl py-16">Bar Chart</div>
+        <div class="max-w-xl">
+          <bar-chart :chartData="dataBar"></bar-chart>
+        </div>
+      </div>
+      <div>
+        <div class="text-2xl py-16">Mixed Chart</div>
+        <div class="max-w-xl">
+          <bar-chart :chartData="dataMixed"></bar-chart>
+        </div>
+      </div>
     </div>
   </Layout>
 </template>
@@ -87,8 +96,8 @@ export default {
             },
             {
               label: "Costs",
-            backgroundColor: "rgba(255,69,0, 1)",
-            borderColor: "rgba(255,69,0,0.5)",
+              backgroundColor: "rgba(255,69,0, 1)",
+              borderColor: "rgba(255,69,0,0.5)",
               data: [4, 3, 9, 3, this.getRandomInt()],
               type: "line",
               fill: false,
@@ -103,9 +112,3 @@ export default {
 };
 </script>
 
-
-.chartblock {
-  margin-top: 3em;
-  margin-bottom: 3em;
-}
-</style>

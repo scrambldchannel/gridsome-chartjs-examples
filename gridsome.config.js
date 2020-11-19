@@ -24,7 +24,10 @@ module.exports = {
         pathPrefix: '/coins', // Add route prefix. Optional
         template: './src/templates/Coins.vue' // Optional
       }
-    }
+    },
+    {
+      use: "gridsome-plugin-tailwindcss",
+    },
 
   ]
 }

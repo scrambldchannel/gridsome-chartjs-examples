@@ -1,8 +1,12 @@
 <template>
   <Layout>
-    <h2>{{ $page.coin.summary }}</h2>
-    <p class="intro">{{ $page.coin.excerpt }}</p>
-    <line-chart :chartData="dataCoin"></line-chart>
+    <div class="container px-32 py-16">
+      <div class="text-3xl font-bold py-8">{{ $page.coin.title }}</div>
+      <div class="max-w-xl">
+        <line-chart :chartData="dataCoin"></line-chart>
+      </div>
+    </div>
+    <
   </Layout>
 </template>
 
@@ -46,7 +50,7 @@ export default {
           "2016",
           "2017",
           "2018",
-          "2019"
+          "2019",
         ],
         datasets: [
           {
@@ -64,8 +68,8 @@ export default {
       // dummy function to simulate pulling data via a function using front matter info
       const prices = {
         BTC: [0.125, 2, 13, 600, 1000, 500, 780, 13800, 3300, 7100],
-        XMR: [0,0,0,0,0.28,0.34,11.5, 39.05, 314, 45],
-      }
+        XMR: [0, 0, 0, 0, 0.28, 0.34, 11.5, 39.05, 314, 45],
+      };
       return prices[this.$page.coin.coin];
     },
   },
