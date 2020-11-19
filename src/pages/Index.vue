@@ -1,7 +1,6 @@
 <template>
   <Layout>
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
 
     <h1>Gridsome Chart.js Examples</h1>
 
@@ -9,13 +8,22 @@
 
     <p class="home-links">
       <a href="https://gridsome.org/docs/" target="_blank" rel="noopener"
-        >Gridsome Docs</a
+        >Gridsome docs</a
       >
+      <a href="https://www.chartjs.org/docs/latest/" target="_blank" rel="noopener"
+        >Chart.js docs</a
+      >
+      <a href="https://vue-chartjs.org/guide/" target="_blank" rel="noopener"
+        >vue-chart-js docs</a
+      >
+
+
+
       <a
-        href="https://github.com/gridsome/gridsome"
+        href="https://github.com/scrambldchannel/gridsome-chartjs-examples"
         target="_blank"
         rel="noopener"
-        >GitHub</a
+        >github</a
       >
     </p>
   </Layout>
@@ -24,7 +32,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Hello, world!",
+    title: "Gridsome and Chart.js",
   },
 };
 </script>
