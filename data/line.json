@@ -1,0 +1,39 @@
+{
+    "labels": [
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+    ],
+    "datasets": [
+        {
+            "label": "Sales",
+            "backgroundColor ": "rgba(0,128,128, 1)",
+            "borderColor": "rgba(0,128,128, 0.5)",
+            "borderWidth": "5",
+            "fill": false,
+            "data": [
+                10,
+                12,
+                8,
+                14,
+                12
+            ]
+        },
+        {
+            "label": "Costs",
+            "backgroundColor": "rgba(255,69,0, 1)",
+            "borderColor": "rgba(255,69,0,0.5)",
+            "borderWidth": "5",
+            "fill": false,
+            "data": [
+                4,
+                3,
+                9,
+                3,
+                8
+            ]
+        }
+    ]
+}
