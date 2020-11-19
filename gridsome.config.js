@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Gridsome Chart.js Examples',
   plugins: [
     {
       use: '@gridsome/vue-remark',
