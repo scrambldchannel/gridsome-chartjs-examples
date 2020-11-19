@@ -84,12 +84,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  margin-bottom: 20px;
+  position: relative;
+  margin-top: 20px;
   height: 50px;
   bottom: 0;
   width: 100%;
-  overflow: hidden;
 }
 
 .home-links a {
