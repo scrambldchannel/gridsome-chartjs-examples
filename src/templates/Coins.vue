@@ -63,7 +63,7 @@ export default {
     getPrice() {
       // dummy function to simulate pulling data via a function using front matter info
       const prices = {
-        BTC: [0.125, 2, 13, 1000, 500, 780, 13800, 3300, 7100],
+        BTC: [0.125, 2, 13, 600, 1000, 500, 780, 13800, 3300, 7100],
         XMR: [0,0,0,0,0.28,0.34,11.5, 39.05, 314, 45],
       }
       return prices[this.$page.coin.coin];
