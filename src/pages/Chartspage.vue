@@ -1,7 +1,19 @@
 <template>
   <Layout>
-    <h1>Examples of chart components in templates</h1>
+    <h1>Examples of individual charts on a single page</h1>
 
+    <div class="chartblock">
+      <h2 class="">Line Chart</h2>
+      <line-chart :chartData="dataLine"></line-chart>
+    </div>
+    <div class="chartblock">
+      <h2 class="">Bar Chart</h2>
+      <bar-chart :chartData="dataBar"></bar-chart>
+    </div>
+    <div class="chartblock">
+      <h2 class="">Mixed Chart</h2>
+      <bar-chart :chartData="dataMixed"></bar-chart>
+    </div>
   </Layout>
 </template>
 
