@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>Examples of individual charts on a single page</h1>
+    <h2>Examples of individual charts on a single page</h2>
 
     <div class="chartblock">
       <h2 class="">Line Chart</h2>

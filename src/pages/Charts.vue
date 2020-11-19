@@ -1,6 +1,8 @@
 <template>
   <Layout>
     <div class="">
+            <h2>Charts components in posts</h2>
+      <p>Shows how a chart can be included in in a markdown file using static data. Seems to require that vue components are registered in <code>main.js</code></p>
       <div
         v-for="post in $page.charts.edges"
         :key="post.id"

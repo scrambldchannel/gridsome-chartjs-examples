@@ -1,6 +1,8 @@
 <template>
   <Layout>
     <div class="">
+      <h2>Charts components in templates</h2>
+      <p>Shows how a chart can be included in a template with code using the node's front matter to populate the data.</p>
       <div
         v-for="post in $page.coins.edges"
         :key="post.id"
