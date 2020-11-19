@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="container px-32 py-16">
-      <div class="text-3xl font-bold py-8">{{ $page.chart.summary }}</div>
+      <div class="text-3xl font-bold py-8">{{ $page.chart.title }}</div>
   
   
       <div class="max-w-xl">

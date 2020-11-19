@@ -6,8 +6,8 @@
       <nav
         class="container mx-auto flex flex-wrap justify-between items-center py-8"
       >
-        <div>
-          <g-link class="text-copy-primary hover:text-gray-600" to="/">{{
+        <div class="text-gray-600 hover:text-teal-600">
+          <g-link class="text-copy-primary " to="/">{{
             $static.metadata.siteName
           }}</g-link>
         </div>
@@ -17,19 +17,19 @@
           <li>
             <g-link
               to="/chartspage"
-              class="text-copy-primary hover:text-gray-600"
+              class="text-copy-primary text-gray-600 hover:text-teal-600"
               >Charts on Page</g-link
             >
           </li>
           <li>
-            <g-link
+            <g-link 
               to="/templatecharts"
-              class="text-copy-primary hover:text-gray-600"
+              class="text-copy-primary text-gray-600 hover:text-teal-600"
               >Charts in Templates</g-link
             >
           </li>
           <li>
-            <g-link to="/charts" class="text-copy-primary hover:text-gray-600"
+            <g-link to="/charts" class="text-copy-primary text-gray-600 hover:text-teal-600"
               >Charts in Posts</g-link
             >
           </li>
@@ -49,7 +49,7 @@
           <li>
             <a
               href="https://gridsome.org/docs/"
-              class="text-copy-primary hover:text-gray-600"
+              class="text-copy-primary text-gray-600 hover:text-teal-600"
               target="_blank"
               rel="noopener"
               >Gridsome docs
@@ -58,7 +58,7 @@
           <li>
             <a
               href="https://www.chartjs.org/docs/latest/"
-              class="text-copy-primary hover:text-gray-600"
+              class="text-copy-primary text-gray-600 hover:text-teal-600"
               target="_blank"
               rel="noopener"
               >Chart.js docs</a
@@ -66,7 +66,7 @@
           </li>
           <a
             href="https://vue-chartjs.org/guide/"
-              class="text-copy-primary hover:text-gray-600"
+              class="text-copy-primary text-gray-600 hover:text-teal-600"
             target="_blank"
             rel="noopener"
             >vue-chart-js docs</a
@@ -74,7 +74,7 @@
           <li>
             <a
               href="https://gridsome.org/plugins/@gridsome/vue-remark"
-              class="text-copy-primary hover:text-gray-600"
+              class="text-copy-primary text-gray-600 hover:text-teal-600"
               target="_blank"
               rel="noopener"
               >vue-remark docs</a
@@ -84,7 +84,7 @@
           <li>
             <a
               href="https://github.com/scrambldchannel/gridsome-chartjs-examples"
-              class="text-copy-primary hover:text-gray-600"
+              class="text-copy-primary text-gray-600 hover:text-teal-600"
               target="_blank"
               rel="noopener"
               >source on github</a

@@ -1,5 +1,5 @@
 ---
-title: Mixed Chart Example
+title: Mixed Chart
 summary: A simple mixed chart
 ---
 import LineChart from "~/components/Bar.vue";

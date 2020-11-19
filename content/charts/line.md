@@ -1,5 +1,5 @@
 ---
-title: Line Chart Example
+title: Line Chart
 summary: A simple line chart
 ---
 import LineChart from "~/components/Line.vue";

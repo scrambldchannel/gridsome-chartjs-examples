@@ -1,5 +1,5 @@
 ---
-title: Bar Chart Example
+title: Bar Chart
 summary: A simple bar chart
 ---
 import BarChart from "~/components/Bar.vue";
