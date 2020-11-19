@@ -6,5 +6,15 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
+  plugins: [
+    {
+      use: '@gridsome/vue-remark',
+      options: {
+        typeName: 'Chart', // Required
+        baseDir: './content/charts', // Where .md files are located
+        pathPrefix: '/charts', // Add route prefix. Optional
+        template: './src/templates/Charts.vue' // Optional
+      }
+    }
+  ]
 }
