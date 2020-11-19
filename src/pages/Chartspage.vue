@@ -104,11 +104,6 @@ export default {
 </script>
 
 
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
-
 .chartblock {
   margin-top: 3em;
   margin-bottom: 3em;
