@@ -15,6 +15,16 @@ module.exports = {
         pathPrefix: '/charts', // Add route prefix. Optional
         template: './src/templates/Charts.vue' // Optional
       }
+    },
+    {
+      use: '@gridsome/vue-remark',
+      options: {
+        typeName: 'Coin', // Required
+        baseDir: './content/coins', // Where .md files are located
+        pathPrefix: '/coins', // Add route prefix. Optional
+        template: './src/templates/Coins.vue' // Optional
+      }
     }
+
   ]
 }

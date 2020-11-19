@@ -7,7 +7,8 @@
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/chartspage">Charts on Page</g-link>
-        <g-link class="nav__link" to="/charts">Charts in Templates</g-link>
+        <g-link class="nav__link" to="/charts">Charts in Posts</g-link>
+        <g-link class="nav__link" to="/templates">Charts in Templates</g-link>
       </nav>
     </header>
     <slot/>
