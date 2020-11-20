@@ -7,7 +7,7 @@
         class="container mx-auto flex flex-wrap justify-between items-center py-8"
       >
         <div class="text-gray-600 hover:text-teal-600">
-          <g-link class="text-copy-primary " to="/">{{
+          <g-link class="text-copy-primary" to="/">{{
             $static.metadata.siteName
           }}</g-link>
         </div>
@@ -22,23 +22,27 @@
             >
           </li>
           <li>
-            <g-link 
+            <g-link
               to="/templatecharts"
               class="text-copy-primary text-gray-600 hover:text-teal-600"
               >Charts in Templates</g-link
             >
           </li>
           <li>
-            <g-link to="/charts" class="text-copy-primary text-gray-600 hover:text-teal-600"
+            <g-link
+              to="/charts"
+              class="text-copy-primary text-gray-600 hover:text-teal-600"
               >Charts in Posts</g-link
             >
           </li>
         </ul>
       </nav>
     </header>
-    <main class="flex-grow">
-      <slot />
-    </main>
+    <transition name="fade" appear>
+      <main class="flex-grow">
+        <slot />
+      </main>
+    </transition>
     <footer class="">
       <nav
         class="container mx-auto flex flex-wrap justify-center items-center py-8"
@@ -66,7 +70,7 @@
           </li>
           <a
             href="https://vue-chartjs.org/guide/"
-              class="text-copy-primary text-gray-600 hover:text-teal-600"
+            class="text-copy-primary text-gray-600 hover:text-teal-600"
             target="_blank"
             rel="noopener"
             >vue-chart-js docs</a
@@ -104,3 +108,12 @@ query {
 }
 </static-query>
 
+<style>
+.fade-enter-active {
+  transition: opacity .75s;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+</style>
