@@ -2,7 +2,7 @@
   <Layout>
     <div class="container mx-auto py-16">
       <div class="text-lg lg:text-3xl font-bold py-8">{{ $page.coin.title }}</div>
-      <div >
+      <div class="max-w-xl">
         <line-chart :chartData="dataCoin"></line-chart>
       </div>
     </div>

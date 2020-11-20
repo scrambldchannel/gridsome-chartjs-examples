@@ -4,19 +4,19 @@
       <div class="text-lg lg:text-3xl font-bold pt-8">
         Examples of individual charts on a single page
       </div>
-      <div>
+      <div class="max-w-xl">
         <div class="lg:text-2xl py-16">Line Chart</div>
         <div>
           <line-chart :chartData="dataLine"></line-chart>
         </div>
       </div>
-      <div>
+      <div class="max-w-xl">
         <div class="lg:text-2xl py-16">Bar Chart</div>
         <div >
           <bar-chart :chartData="dataBar"></bar-chart>
         </div>
       </div>
-      <div>
+      <div class="max-w-xl">
         <div class="lg:text-2xl py-16">Mixed Chart</div>
         <div >
           <bar-chart :chartData="dataMixed"></bar-chart>
