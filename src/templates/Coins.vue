@@ -1,12 +1,12 @@
 <template>
   <Layout>
-    <div class="container px-32 py-16">
-      <div class="text-3xl font-bold py-8">{{ $page.coin.title }}</div>
-      <div class="max-w-xl">
+    <div class="container mx-auto py-16">
+      <div class="text-lg lg:text-3xl font-bold py-8">{{ $page.coin.title }}</div>
+      <div >
         <line-chart :chartData="dataCoin"></line-chart>
       </div>
     </div>
-    <
+    
   </Layout>
 </template>
 

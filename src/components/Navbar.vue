@@ -35,19 +35,19 @@
       <g-link
         class="block px-2 py-1 text-grey-600 hover:text-teal-600"
         to="/chartspage"
-        >Charts on a Page</g-link
+        >On a page</g-link
       >
 
       <g-link
         class="mt-1 block px-2 py-1 text-grey-600 hover:text-teal-600 sm:mt-0 sm:ml-2"
         to="/templatecharts"
-        >Charts in templates</g-link
+        >In templates</g-link
       >
 
       <g-link
         class="mt-1 block px-2 py-1 text-grey-600 hover:text-teal-600 sm:mt-0 sm:ml-2"
         to="/charts"
-        >Charts in posts</g-link
+        >In posts</g-link
       >
     </nav>
   </header>

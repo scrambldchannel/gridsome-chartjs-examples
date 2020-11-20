@@ -1,16 +1,17 @@
 <template>
-  <div
-    class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen"
-  >
-    <header class="">
-      <Navbar />
-    </header>
-    <transition name="fade" appear>
-      <main class="flex-grow">
-        <slot />
-      </main>
-    </transition>
+  <div id="app" class="antialiased text-grey-900">
+    <div class="min-h-screen">
+      <header >
+        <Navbar />
+      </header>
+      <transition name="fade" appear>
+        <main class="flex-grow">
+          <slot />
+        </main>
+      </transition>
     <Footer />
+      
+    </div>
   </div>
 </template>
 
@@ -29,7 +30,7 @@ export default {
   name: "app",
   components: {
     Navbar,
-    Footer
+    Footer,
   },
 };
 </script>
