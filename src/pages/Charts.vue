@@ -12,7 +12,7 @@
           {{ post.node.summary }}
         </div>
 
-        <div class="text-gray-600 hover:text-teal-600">
+        <div class="text-grey-600 hover:text-teal-600">
           <g-link :to="post.node.path">See example</g-link>
         </div>
       </div>

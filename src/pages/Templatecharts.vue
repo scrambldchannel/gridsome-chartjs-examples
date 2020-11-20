@@ -14,7 +14,7 @@
         </div>
 
         <div class="pt-8">
-          <g-link class="text-gray-600 hover:text-teal-600" :to="post.node.path"
+          <g-link class="text-grey-600 hover:text-teal-600" :to="post.node.path"
             >{{ post.node.coin }} chart</g-link
           >
         </div>
