@@ -11,18 +11,17 @@ module.exports = {
       use: '@gridsome/vue-remark',
       options: {
         typeName: 'Chart', // Required
-        baseDir: './content/charts', // Where .md files are located
+        baseDir: 'content/charts', // Where .md files are located
         pathPrefix: '/charts', // Add route prefix. Optional
-        template: './src/templates/Charts.vue' // Optional
+        template: 'src/templates/Charts.vue' // Optional
       }
     },
     {
-      use: '@gridsome/vue-remark',
+      use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Coin', // Required
-        baseDir: './content/coins', // Where .md files are located
-        pathPrefix: '/coins', // Add route prefix. Optional
-        template: './src/templates/Coins.vue' // Optional
+        path: 'content/coins/*.md', // Where .md files are located
+
       }
     },
     {

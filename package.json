@@ -13,5 +13,8 @@
     "gridsome-plugin-tailwindcss": "git://github.com/scrambldchannel/gridsome-plugin-tailwindcss.git#compatability",
     "vue-chartjs": "^3.5.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.3"
+  }
 }
