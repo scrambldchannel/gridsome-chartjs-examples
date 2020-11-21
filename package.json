@@ -7,14 +7,17 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/vue-remark": "^0.2.5",
-    "chart.js": "^2.9.4",
-    "gridsome": "^0.7.0",
-    "gridsome-plugin-tailwindcss": "git://github.com/scrambldchannel/gridsome-plugin-tailwindcss.git#compatability",
-    "vue-chartjs": "^3.5.1"
+    "gridsome": "^0.7.0"
   },
   "devDependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.3"
+    "@gridsome/transformer-remark": "^0.6.3",
+    "@gridsome/vue-remark": "^0.2.5",
+    "autoprefixer": "^9.8.6",
+    "chart.js": "^2.9.4",
+    "gridsome-plugin-tailwindcss": "github:scrambldchannel/gridsome-plugin-tailwindcss",
+    "postcss": "^7.0.35",
+    "tailwindcss": "^1.9.6",
+    "vue-chartjs": "^3.5.1"
   }
 }
