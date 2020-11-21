@@ -22,11 +22,11 @@ query Coin ($id: ID!) {
 </page-query>
 
 <script>
-import CoinChart from "~/components/Coin.vue";
+import LineChart from "~/components/Line.vue";
 
 export default {
   components: {
-    CoinChart,
+    LineChart,
   },
   data: function () {
     return {

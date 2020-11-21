@@ -1,10 +1,9 @@
 <script>
-import { Line, mixins } from "vue-chartjs";
+import { Radar, mixins } from "vue-chartjs";
 const { reactiveProp } = mixins;
 
 export default {
-
-  extends: Line,
+  extends: Radar,
   mixins: [reactiveProp],
   props: ["chartdata", "options"],
   mounted() {

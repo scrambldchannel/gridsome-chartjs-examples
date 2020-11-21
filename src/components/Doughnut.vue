@@ -1,9 +1,9 @@
 <script>
-import { Line, mixins } from "vue-chartjs";
+import { Doughnut, mixins } from "vue-chartjs";
 const { reactiveProp } = mixins;
 
 export default {
-  extends: Line,
+  extends: Doughnut,
   mixins: [reactiveProp],
   props: ["chartdata", "options"],
   mounted() {
